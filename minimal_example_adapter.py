@@ -20,8 +20,8 @@ config_node = TradingNodeConfig(
     log_level='DEBUG',
     data_clients={
         'ALPACA': AlpacaDataClientConfig(
-            api_key='PKKPMD01L7WOTNX5Y62S',
-            api_secret='l2TXXSIz2AIjkSmUmXltYwicIZiBNU6kDpJ2pVxE',
+            api_key='YOUR KEY',
+            api_secret='YOUR SECRET',
             instrument_provider=InstrumentProviderConfig(
                 load_ids=frozenset(['AAPL.ALPACA', 'IBM.ALPACA', 'TSLA.ALPACA'])
             )
